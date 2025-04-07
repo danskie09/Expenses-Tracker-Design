@@ -27,6 +27,8 @@
     display: flex;
     align-items: center;
     transition: all 0.3s;
+    cursor: pointer; /* Add this line to show a hand pointer on hover */
+    text-decoration: none; /* Remove underline from links */
 }
 
 .navbar-item.active {
